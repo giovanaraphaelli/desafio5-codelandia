@@ -1,2 +1,2 @@
 # desafio5-codelandia
-Desafio lançado pelo servidor ~Codelândia~
+Desafio lançado pelo servidor Codelândia
