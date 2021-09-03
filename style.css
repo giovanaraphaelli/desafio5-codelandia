@@ -8,7 +8,7 @@
 body{
     background: rgb(98,142,117);
     background: linear-gradient(135deg, rgba(98,142,117,1) 5%, rgba(26,72,85,1) 75%);
-    padding: 4% 15% 15%;
+    padding: 4% 15% 10%;
 }
 
 header{
@@ -17,7 +17,7 @@ header{
 }
 
 .logo{
-    width: 50%;
+    width: 40%;
 
 }
 
@@ -46,7 +46,8 @@ p{
     font-family: 'Poppins','Courier New', Courier, monospace;
     color: #f9f9f9;
     font-weight: 400;
-    font-size: 100%;
+    font-size: 110%;
+    line-height:160%;
     padding: 5% 0%;
 }
 
@@ -59,4 +60,24 @@ p{
 .ghost{
     width: 90%;
     padding: 5% 20%;
+}
+
+.button1{
+    padding: 10px 40px;
+    font-family: 'Poppins','Courier New', Courier, monospace;
+    color: #f9f9f9;
+    font-weight: 500;
+    background-image: url(/image/vector1.svg);
+
+}
+
+.button2{
+    padding: 10px 40px;
+    font-family: 'Poppins','Courier New', Courier, monospace;
+    color: #f9f9f9;
+    font-weight: 500;
+    background-image: url(/image/vector2.svg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
