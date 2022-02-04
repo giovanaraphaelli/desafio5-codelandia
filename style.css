@@ -70,25 +70,44 @@ main {
   display: block;
   width: 100%;
 }
-
+.wrapper-button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 10px;
+  padding-right: 20px;
+}
 .button {
-  padding: 10px 40px;
   font-family: "Poppins", "Courier New", Courier, monospace;
   color: #f9f9f9;
   font-weight: 500;
-  background-image: url(/image/vector1.svg);
-  background-repeat: no-repeat;
+  transition: 0.3s;
+  padding: 10px;
+  text-align: center;
 }
 
-.button:hover {
-  text-decoration: underline;
+#btn-nom {
+  border: 2px solid #628e75;
+  background-color: #628e75;
+}
+
+#btn-spc {
+  border: 2px solid #628e75;
+  margin-left: 20px;
+}
+
+#btn-nom:hover {
+  border: 2px solid #f2f2f2;
+}
+
+#btn-spc:hover {
+  border: 2px solid #f2f2f2;
 }
 
 @media (max-width: 900px) {
   main {
     grid-template-columns: 1fr;
   }
-  .wraper-sobre {
+  .wrapper-sobre {
     order: 2;
   }
 }
