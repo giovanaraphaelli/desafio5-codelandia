@@ -29,6 +29,10 @@ header {
   max-width: 120px;
 }
 
+.icons a {
+  padding: 0 10px;
+}
+
 h2 {
   font-family: "Poppins", "Courier New", Courier, monospace;
   color: #f9f9f9;
@@ -65,7 +69,22 @@ main {
 .ghost {
   display: block;
   width: 100%;
+  transform: translateY(0px);
+  animation: float 3s ease-in-out infinite;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .wrapper-button {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -81,22 +100,25 @@ main {
   text-align: center;
 }
 
+.button {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
 #btn-nom {
-  border: 2px solid #628e75;
-  background-color: #628e75;
+  background-image: url(/image/Vector\ 8.png);
 }
 
 #btn-spc {
-  border: 2px solid #628e75;
-  margin-left: 20px;
+  background-image: url(/image/Vector\ 2.png);
 }
 
-#btn-nom:hover {
-  border: 2px solid #f2f2f2;
-}
-
-#btn-spc:hover {
-  border: 2px solid #f2f2f2;
+footer {
+  text-align: center;
 }
 
 @media (max-width: 900px) {
