@@ -1,11 +1,5 @@
 # Studio Ghibli
 
-## desafio5-codelandia
-
-#### Este é o desafio _5_ da comunidade _Codelândia_ por [iuricode](https://github.com/iuricode) !
-
-![Resultado final do projeto](image/studio-ghibli.png)
-
 <h4 align="center"><a href="https://desafio5-codelandia.vercel.app/">Clique para visitar o projeto</a></h4>
 
 ## 🎯 Objetivo
